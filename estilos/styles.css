@@ -2,6 +2,31 @@
     width: 180px;
     height: 75px;
 }
-.mascara {
-    background-color: rgba(0, 0, 0, 0.75px);
+.imgFondo{
+    background-image: url(../imagenes/ba1.jpg);
+    background-color: rgba(0 0 0 0.2);
+    height: 100%;
+    width: 100%;
+
 }
+/* altura para equipos chicos */
+#intro-example {
+    height: 400px;
+  }
+
+  /* altura poara equipos de 992px */
+  @media (min-width: 992px) {
+    #intro-example {
+      height: 600px;
+    }
+  }
+  .prueba{
+    padding-top: 200px;
+  }
+  /*@media (min-width: 1200px) {
+    #intro-example2{
+      padding-top: 0px;
+
+    }
+  }*/
+ 

@@ -11,54 +11,55 @@
     <title>integrador</title>
 </head>
 <body>
-    <header class="container-fluid bg-dark">
+    <header class="container-fluid ">
 
-     <div class="">
-        <nav class="">
+     <div class="row">
+        <nav class="navbar bg-dark">
             <div class="contenedor-logo">
                 <img  class="logo" src="./imagenes/codoacodo.png" alt="logo">
+                <a class="navbar-brand text text-start text-white" href="">Conf Bs As</a>
+                
             </div>
             
             <ul class="nav justify-content-end">
-                <li class="nav-item"><a class="nav-link" href="#"> La Conferencia</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Los Horadores</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">El Lugar y la Fecha</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Conviertete en Horador</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Comprar Tikets</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#"> La Conferencia</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Los Horadores</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">El Lugar y la Fecha</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Conviertete en Horador</a></li>
+                <li class="nav-item"><a class="nav-link text-success" href="#">Comprar Tikets</a></li>
             </ul>
           
         </nav>
       </div>
     </header>
+    
     <!--fondo -->
-    <div
-    id=""class="p-5 text-center bg-image">
-    <img src="./imagenes/ba1.jpg" class= "img-fluid">
-    <div class="mascara">
-      <div class="d-flex justify-content-center align-items-center h-100">
-        <div class="text-white">
-          <h1 class="mb-3">Learn Bootstrap 5 with MDB</h1>
-          <h5 class="mb-4">Best & free guide of responsive web design</h5>
-          <a
-            class="btn btn-outline-light btn-lg m-2"
-            href="https://www.youtube.com/watch?v=c9B4TPnak1A"
-            role="button"
-            rel="nofollow"
-            target="_blank"
-          >Start tutorial</a
-          >
-          <a
-            class="btn btn-outline-light btn-lg m-2"
-            href="https://mdbootstrap.com/docs/standard/"
-            target="_blank"
-            role="button"
-          >Download MDB UI KIT</a
-          >
-        </div>
-      </div>
-    </div>
-  </div>
-
+    <section>
+      <div id="intro-example" class="pt-5 text-end bg-image imgFondo">
+     
+       
+        <div class="d-flex justify-content-end align-items-end prueba">
+         
+          <div class="container row px-5">
+             <div class="col-lg-6 col-md-0 col-sm-0 ">
+              <!--columna vacia-->
+             </div>
+             <div class="col col-md-12 col-lg-6">
+                <h5 class="text-light text-end">Conf Bs As</h5>
+                <p class="text-light text-end">
+                  Bs As llega por primera vez a argentina. Un evento para compartir con el conocimiento y experiencia de los expertos que estan creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de codo a codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!
+                </p>
+              </div>
+                <div class="d-grid gap-2 d-md-block">
+                  <button type="button" class="btn btn-outline-light btn-sm">Quiero ser orador</button>
+                  <button type="button" class="btn btn-success btn-sm">Comprar tickets</button>
+                </div>
+              </div>
+            </div>  
+           
+          </div>
+        
+  </section>
     <!-- Latest compiled JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
