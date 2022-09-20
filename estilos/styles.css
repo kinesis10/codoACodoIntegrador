@@ -2,65 +2,73 @@
     width: 180px;
     height: 75px;
 }
+/*
+.pegajoso{
+  position: -webkit-sticky;
+  position: sticky;
+}*/
 .imgFondo{
-    background-image: url(../imagenes/ba1.jpg);
+    
     text-align: right;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
     position: relative;
     height: 100%;
     width: 100%;
     
 }
-/*.imgFondo:before {
-	content:'';
+.imgFondo:before {
 	position: absolute;
   top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	background-color: rgba(0,0,0,0.5);
-}*/
+}
+.colTexto {
+  position: absolute;
+  
+  top: 500px;
+  right: 20px;
+  left: 20px;;
+  border:red solid;
+}
 
 .imgFondo h5  {
   font-size: 30px;
 	color: #fff;
-	position: relative
+	position: relative;
 }
 .imgFondo p {
   font-size: 20px;
 	color: #fff;
-	position: relative
+	position: relative;
 }
-/* altura para equipos chicos */
-#intro-example {
-    height: 400px;
-  }
 
-  /* altura poara equipos de 992px */
-  @media (min-width: 992px) {
-    #intro-example {
-      height: 600px;
-    }
-  }
+  
   .prueba{
     padding-top: 200px;
   }
-  /*@media (min-width: 1200px) {
-    #intro-example2{
-      padding-top: 0px;
-
-    }
-  }*/
+  
  .imgIzq{
   width: 40rem;
   height: 30rem;
  }
 .fondo-gris{
   background-color: rgb(46, 49, 49);
+  width: 40rem;
+  height: 30rem;
   
 }
 .letras{
   font-family: Arial, Helvetica, sans-serif;
+}
+.boton-color{
+  background-color:rgb(95, 187, 83);
+}
+.formulario{
+  width: 50%;
+}
+footer{
+  background-color: rgb(51, 75, 129);
+  margin-top: 8px;
+  padding-top: 8px;
 }
